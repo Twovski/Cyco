@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "ESNext",
+        "skipLibCheck": true,
+        /* Bundler mode */
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        /* Linting */
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": false,
+        "forceConsistentCasingInFileNames": true,
+        /* Direction */
+        "rootDir": "./src",
+        "baseUrl": "./src",
+        "outDir": "./dist",
+        "paths": {
+            "#libs/*": [
+                "libs/*"
+            ],
+            "#utils/*": [
+                "libs/utils/*"
+            ],
+            "#assets/*": [
+                "libs/assets/*"
+            ],
+            "#config/*": [
+                "libs/config/*"
+            ],
+            "#root/*": [
+                "*"
+            ]
+        },
+    }
+}
